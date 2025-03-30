@@ -92,3 +92,31 @@ TensorBoard can be used to monitor metrics using logs.
 ```bash
 tensorboard --logdir=logs/
 ```
+## 📈 Results
+Accuracy: XX% (Based on dataset and hyperparameters)
+Loss: XX
+You can visualize accuracy and loss curves using the matplotlib library.
+
+## 🧑‍🏫 Customization
+You can easily customize the ANN by modifying:
+- Number of Layers
+- Neurons in each Layer
+- Activation Functions
+- Optimizers
+- Loss Functions
+Check model.py for further configurations.
+
+## 🛡 Error Handling
+- Ensure dataset path is correct.
+- Verify correct TensorFlow installation.
+- Check for GPU availability using:
+```bash
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a branch (git checkout -b feature/your-feature)
+3. Commit your changes (git commit -m 'Add new feature')
+4. Push to the branch (git push origin feature/your-feature)
+5. Create a Pull Request
