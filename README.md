@@ -15,6 +15,8 @@ This project implements a self-driving car algorithm using YOLOv8 for object det
 - Custom training with adjustable parameters
 - Model evaluation and performance analysis
 
+---
+
 ## 📝 YOLO Summary
 
 - **Input Image:** (608, 608, 3)
@@ -41,6 +43,8 @@ To determine the final detection results, YOLO applies the following post-proces
     - Calculate the **Intersection over Union (IoU)** to eliminate overlapping boxes, keeping only the most confident predictions.
 
 This results in the final set of bounding boxes, class labels, and confidence scores, providing an accurate object detection output.
+
+---
 
 ## 🛠️ **Tech Stack**
 
