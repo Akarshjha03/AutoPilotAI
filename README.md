@@ -78,3 +78,17 @@ model = keras.Sequential([
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 ```
+## 🚦 How to Run
+Training the Model:
+```bash
+python src/train.py
+```
+Evaluating the Model:
+```bash
+python src/evaluate.py
+```
+Visualize Training Progress:
+TensorBoard can be used to monitor metrics using logs.
+```bash
+tensorboard --logdir=logs/
+```
