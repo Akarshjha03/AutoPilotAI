@@ -57,3 +57,24 @@ env\Scripts\activate     # For Windows
 ```bash
 pip install -r requirements.txt
 ```
+## 📊 Dataset
+You can choose from the following options:
+- MNIST (Handwritten digits)
+- CIFAR-10 (Images)
+- Custom Dataset
+Make sure the dataset is available in the data/ directory.
+
+## 🧑‍💻 Model Architecture
+Here is an example of a simple ANN model:
+```bash
+from tensorflow import keras
+from tensorflow.keras import layers
+
+model = keras.Sequential([
+    layers.Dense(128, activation='relu', input_shape=(784,)),
+    layers.Dense(64, activation='relu'),
+    layers.Dense(10, activation='softmax')
+])
+
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+```
