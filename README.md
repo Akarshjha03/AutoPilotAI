@@ -35,3 +35,15 @@ This project demonstrates how to build, train, and evaluate an Artificial Neural
 ├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
 ```
+
+
+## 🛠️ Installation
+
+To get started, follow these steps:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ann-tensorflow-keras.git
+cd ann-tensorflow-keras
+```
