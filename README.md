@@ -47,3 +47,9 @@ To get started, follow these steps:
 git clone https://github.com/your-username/ann-tensorflow-keras.git
 cd ann-tensorflow-keras
 ```
+## Create a Virtual Environment
+```bash
+python -m venv env
+source env/bin/activate  # For Linux/macOS
+env\Scripts\activate     # For Windows
+```
